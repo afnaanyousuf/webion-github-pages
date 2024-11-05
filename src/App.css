@@ -1,0 +1,388 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: #ffffff;
+  }
+  
+  header{
+    position: fixed;
+    width: 100%;
+  }
+  
+  .header-wrapper{
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 8px 20px;
+    align-items: center;
+  }
+  
+  .header-wrapper h1{
+    color: greenyellow;
+    padding: 0px 20px;
+    font-size: 22px;
+    font-weight: 900;
+    align-items: center;
+  }
+  
+  .header-wrapper li{
+    list-style-type: none;
+  }
+  
+  .header-wrapper a{
+    text-decoration: none;
+    color: greenyellow;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .header-wrapper .admin{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  .banner{
+    margin-top: 20px;
+  }
+  
+  .banner-wrapper h1{
+    margin-top: 150px;
+    font-size: 70px;
+    font-weight: 800;
+    padding: 20px 250px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  .banner-wrapper p{
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0px 350px;
+  }
+  
+  .banner-wrapper button{
+    border-radius: 30px;
+    color: black;
+    padding: 15px 30px;
+    border: 0px solid gold;
+    background-color: gold;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  
+  .company{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .company-wrapper h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  
+  .company-image img{ 
+      padding: 20px 10px;
+  }
+  
+  .company-wrapper button{
+    border-radius: 30px;
+    color: black;
+    border: 0px solid greenyellow;
+    background-color: greenyellow;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    padding: 10px 10px;
+  }
+  
+  .dashboard-support{
+    margin-top: 50px;
+  }
+  
+  .dashboard-wrapper{
+    text-align: center;
+  }
+  
+  .dashboard-wrapper h5{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: aqua;
+  }
+  
+  .dashboard-wrapper h3{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0px 200px;
+    color: #FFFFFF;
+  }
+  
+  .dashboard-supporters span{
+    font-size: 22px;
+  }
+  
+  .dashboard-supporters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+  
+  .empower{
+    margin-top: 50px;
+  }
+  
+  .empower-text{
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  
+  .text-green {
+    font-size: 45px;
+    color: green;
+    word-spacing: 5%;
+    font-weight: 600;
+  }
+  
+  .text-blue {
+  font-size: 45px;
+  color: blue;
+  word-spacing: 5%;
+  font-weight: 600;
+  }
+  
+  .text-red {
+  font-size: 45px;
+  color: red;
+  word-spacing: 5%;
+  font-weight: 600;
+  }
+  
+  .student-enrolled{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+  }
+  
+  .student-track{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .student-track a{
+    text-decoration: none;
+    border: 0px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #000000;
+  }
+  
+  .student-track p{
+    color: white;
+    padding-top: 5px;
+    font-size: 32px;
+    font-weight: 800;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  
+  .footer-text{
+    margin-top: 50px;
+    text-align: center;
+    color: greenyellow;
+  }
+  
+  .footer-text a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+  }
+  
+  /* Form Submit */
+  
+  .form-submit{
+    border-radius: 30px;
+    color: black;
+    padding: 15px 30px;
+    border: 0px solid gold;
+    background-color: gold;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+  }
+  
+  .formdata-header{
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .form-wrapper{
+     color: greenyellow;
+     margin-top: 10px;
+     align-items: center;
+     text-align: center;
+     font-size: 32px;
+  }
+  
+  .form-wrapper label{
+    color: greenyellow;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .form-wrapper input{
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  select{
+    background-color: #FFFFFF;
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  select option{
+    font-size: 12px;
+  }
+  
+  .submit-data{
+    margin: 50px auto;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .header-wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0px auto;
+      text-align: center;    
+    }
+  
+    .header-wrapper a{
+      margin: 10px auto;
+      padding: 0px;
+    }
+    .banner-wrapper{
+      margin: 20px auto;
+    }
+    .banner-wrapper p{
+      font-size: 20px;
+      align-items: center;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 10px 50px;
+    }
+    .banner-wrapper h1{
+      font-size: 50px;
+      font-weight: 800;
+      padding: 10px 50px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    .company-wrapper h1{
+      font-size: 40px;
+      font-weight: 800;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      margin: 50px auto;
+      text-align: center;
+    }
+    .company-image img{ 
+      margin: 20px auto;
+      display: flex;
+      flex-direction: column;
+      padding: 0px;
+      align-items: center;
+  }
+  .dashboard-wrapper h3{
+    padding: 5px 50px;
+  }
+  .dashboard-support .row{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .dashboard-supporters{
+    margin: 0px auto;
+    padding: 20px;
+  }
+  
+  .empower{
+    padding: 10px 20px;
+    align-items: center;
+  }
+  .student-track{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .student-track a{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .course-track{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .submitted-form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 300px;
+    max-height: 300px;
+    align-items: center;
+    font-size: 22px;
+  }
+  }
